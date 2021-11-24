@@ -63,7 +63,7 @@ class _LoginPageState extends State<LoginPage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          Navigator.pushNamed(context, '/content');
+          Navigator.pushNamed(context, '/homepage');
         },
         tooltip: 'Login',
         child: const Icon(Icons.login),
