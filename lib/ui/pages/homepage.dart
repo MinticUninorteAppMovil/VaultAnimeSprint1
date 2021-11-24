@@ -21,8 +21,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
         title: Text(widget.title),
         backgroundColor: Color(0xFFF85028),
         automaticallyImplyLeading: true,
-        
-        actions: [
+        actions: const [
           Align(
             alignment: AlignmentDirectional(0, 0),
             child: Icon(
@@ -35,8 +34,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
         centerTitle: true,
         elevation: 4,
       ),
-      // ignore: prefer_const_constructors
-      backgroundColor: Color(0xFFEB1D1D),
+      backgroundColor: const Color(0xFFEB1D1D),
       body: SafeArea(
         child: Align(
           alignment: AlignmentDirectional(0, 0),
